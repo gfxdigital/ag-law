@@ -4,22 +4,33 @@
                 <div class="col-md-4">
                     <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
                 </div>
-                <div class="col-md-4">
+            <!--     <div class="col-md-4">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
                         <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
                         </li>
                         {% endfor %}
-                    </ul>
+                    </ul> -->
+                    <div class="col-md-4">
+                      <ul class="list-inline social-buttons">
+                        {% if site.facebook_username %}
+                        <li>
+                          <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank">
+                            <i class="fa fa-facebook"></i></a>
+                          </li>
+                          {% endif %}
+                        </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
+                        <li><a href="#privacy_policy">Política de Privacidade</a>
                         </li>
-                        <li><a href="#">Terms of Use</a>
+                        <li><a href="#">Termos e Condições</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
+
+
