@@ -4,3 +4,11 @@
 
 layout: default
 ---
+---
+layout: post
+title: GERLEIN ADVOCACIA
+description: "Consultoria e Assessoria Jurídica | Advocacia, Traduções & Serviços Notariais"
+modified: 2019-03-25
+tags: [open graph, facebook, twitter, linkedin]
+image: header-og.jpg
+---
