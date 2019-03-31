@@ -14,14 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Gerlein Advocacia
-email: info@gerlein.pt
+page: Excelência em assuntos de Família e Sucessão
+email: contacto@gerlein.pt
 description: >- # this means to ignore newlines until "baseurl:"
-  Consultoria e Assessoria Jurídica.
-
+  Somos um escritório de advocacia especializado em Direito de Família, das Sucessões e Direito Internacional Privado. Prezamos pela técnica, excelência e ética.
+keywords: direito, família, familia, sucessão, sucessões, sucessao, sucessoes, mãe, mae, pai, pais, padrasto, madrasta, irmão, irmao, irmãos, irmaos, neto, netos, parentesco, filho, filhos, menor, menores, guarda, judicial, alimentos, responsabilidade, responsabilidades, parental, parentais, convenção, Haia, Hage, convenções, convencoes,  antinupcial, antenupciais,  herança, heranca
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://gerlein.pt/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+# github_username:  jekyll
 facebook_username:
 
 # Build settings
@@ -30,6 +31,7 @@ theme: minima
 theme: agency-jekyll-theme
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
